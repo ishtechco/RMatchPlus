@@ -1,7 +1,3 @@
-# DevConnector
-
-> Small social network app built with the MERN stack. This is part of my "MERN Stack Front To Back" Udemy course
-
 ## Quick Start
 
 ```bash
@@ -22,27 +18,3 @@ npm run client
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
-
-You will need to create a keys_dev.js in the server config folder with
-
-```
-module.exports = {
-  mongoURI: 'YOUR_OWN_MONGO_URI',
-  secretOrKey: 'YOUR_OWN_SECRET'
-};
-```
-
-## App Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### Version
-
-1.0.0
-
-### License
-
-This project is licensed under the MIT License

@@ -60,6 +60,13 @@ class Register extends Component {
               <h1 className="display-4 text-center">Sign Up</h1>
               <p className="lead text-center">Create your RM+ account</p>
               <form noValidate onSubmit={this.onSubmit}>
+                {/*<TextFieldGroup
+                  placeholder="Twitter"
+                  name="twitter"
+                  value={this.state.twitter}
+                  onChange={this.onChange}
+                  error={errors.twitter}
+                />*/}
                 <TextFieldGroup
                   placeholder="Name"
                   name="name"

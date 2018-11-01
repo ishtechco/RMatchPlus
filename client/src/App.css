@@ -2,9 +2,19 @@ img {
   width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  color: aliceblue;
+}
+
 .landing {
   position: relative;
-  background: url('./img/showcase.jpg') no-repeat;
+  /* background: url("./img/showcase.jpg") no-repeat; */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -17,7 +27,7 @@ img {
 }
 
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.7); */
   position: absolute;
   top: 0;
   left: 0;
@@ -36,4 +46,17 @@ img {
 
 .form-control::placeholder {
   color: #bbb !important;
+}
+
+#grad {
+  background-image: linear-gradient(rgb(25, 15, 54), rgb(34, 113, 165));
+}
+
+.clear-button {
+  border-radius: 2px;
+  border: 2px solid whitesmoke;
+}
+
+.more {
+  margin-right: 2rem;
 }

@@ -16,15 +16,33 @@ class Landing extends Component {
         <div className="dark-overlay landing-inner text-light">
           <div className="container">
             <div className="row">
-              <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4">RM+</h1>
-                <p className="lead"> Let's Get It</p>
+              <div className="col-md-12 text-left">
+                <h1 className="display-3 mb-4">
+                  Recruit <br />
+                  Match +
+                </h1>
+                <p className="lead">
+                  {" "}
+                  Sign up to get priority access to Recruit Match +
+                </p>
                 <hr />
-                <Link to="/register" className="btn btn-lg btn-info mr-2">
-                  Sign Up
+                <Link
+                  to="/learnmore"
+                  className="btn btn-lg clear-button disabled more"
+                >
+                  Learn More
                 </Link>
-                <Link to="/login" className="btn btn-lg btn-light">
-                  Login
+                <Link to="/register" className="btn btn-lg clear-button">
+                  Athletes Start Here
+                </Link>
+                <br />
+                or
+                <br />
+                <Link
+                  to="/registercoaches"
+                  className="btn btn-lg clear-button disabled"
+                >
+                  Coaches (coming soon)
                 </Link>
               </div>
             </div>
